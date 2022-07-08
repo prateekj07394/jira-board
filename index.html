@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>JIRA</title>
+</head>
+<body>
+    <main>
+        <h1>JIRA</h1>
+        <div class="columnWrapper">
+            <div class="status">
+                <h3>To do</h3>
+                <div class="tasksWrapper" id="addTaskColumn"></div>
+                <input type="text" id="addTaskInput"/>
+                <button class="addTask" id="addTask">Add task</button>
+            </div>
+            <div class="status">
+                <h3>In progress</h3>
+                <div class="tasksWrapper" id="inProgressColumn"></div>
+            </div>
+            <div class="status">
+                <h3>Ready for review</h3>
+                <div class="tasksWrapper" id="readyForReviewColumn"></div>
+            </div>
+            <div class="status">
+                <h3>Done</h3>
+                <div class="tasksWrapper" id="doneColumn"></div>
+            </div>
+        </div>
+    </main>
+</body>
+<script src="js/main.js"></script>
+</html>
